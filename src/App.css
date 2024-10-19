@@ -8,14 +8,15 @@
 .top-container{
   display: flex;
   height: 100vh;
-  background-color: crimson;
+  /* background-color: crimson; */
 }
 
 .sidebar{
   width: 30%;;
-  background-color: aquamarine;
+  background-color: rgb(217, 217, 217);
   border: 1px solid black;
   margin: 15px;
+  border-radius: 10px;
 }
 
 .main-container{
@@ -23,4 +24,5 @@
   background-color: aqua;
   border: 1px solid black;
   margin: 15px;
+  border-radius: 5px;
 }

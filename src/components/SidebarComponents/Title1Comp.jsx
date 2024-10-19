@@ -6,7 +6,7 @@ const Title1Comp = () => {
     <div className='tit1'>
         <div className='title1'>Title1</div>
         <div className='input-box'>
-            <input list = "dropdown-options" type="text" placeholder=''></input>
+            <input list = "dropdown-options" type="text" placeholder=' ' className='boxx'></input>
             <datalist id="dropdown-options">
                 <option value="option 1" />
                 <option value="option 2" />

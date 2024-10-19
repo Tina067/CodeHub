@@ -1,23 +1,24 @@
 import React from 'react'
 import User  from './User';
 import Title1Comp from './Title1Comp';
-import RecBox from './RecBox';
+import {RecBox1, RecBoxTick} from './RecBox';
 import './SidebarComp.css'
 
 const SidebarComp = () => {
   return (
     <div className='side'>
-    <div className='user'></div><User />
+    <div className='user'><User /></div>
     <div className='title1comp'><Title1Comp/></div>
     <div className='checkboxRec'>
-     <RecBox/>
-     <RecBox/>
-     <RecBox/>
+    <RecBoxTick/>
+     <RecBoxTick/>
+     <RecBoxTick/>
+     
      </div>
      <div className='Rec'>
-     <RecBox/>
-     <RecBox/>
-     <RecBox/>
+     <RecBox1/>
+     <RecBox1/>
+     <RecBox1/>
      </div>
     </div>
   )
