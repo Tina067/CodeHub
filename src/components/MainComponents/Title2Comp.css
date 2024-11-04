@@ -10,4 +10,14 @@
     height: 100px;
     width: 80%;
     border-radius: 20px;
+    background-color: white;
+}
+
+.tit2subcom {
+    border: 1px solid black;
+    height: 50px;
+    width: 100px;
+    margin:20px;
+    background-color: rgb(217, 217, 217);
+    border-radius: 20px;
 }
