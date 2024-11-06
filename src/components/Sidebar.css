@@ -1,0 +1,29 @@
+/* Sidebar.css */
+.sidebar {
+    width: 30%;
+    background-color: #e0e0e0;
+    padding: 20px;
+  }
+  .sidebar-Title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-profile {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #3c3f3c;
+  }
+  
+  .sidebar-settings {
+    font-size: 20px;
+  }
+  

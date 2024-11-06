@@ -1,0 +1,59 @@
+/* MainContent.css
+.main-content-section {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .main-content-column-2 {
+    width: 35%;
+  }
+  
+  .main-content-column-3 {
+    width: 30%;
+  }
+
+  .parent-main-content-column{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+  } */
+
+  /* MainContent.css */
+
+.main-content-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Full height within the parent container */
+  padding: 20px; /* Optional: add padding */
+  box-sizing: border-box;
+}
+
+.main-content-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-basis: 40%; /* Occupies 40% of the container height */
+}
+
+.Title4-section {
+  flex-basis: 40%; /* Occupies 40% of the container height */
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.parent-main-content-column {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.main-content-column-2 {
+  width: 35%;
+}
+
+.main-content-column-3 {
+  width: 30%;
+}

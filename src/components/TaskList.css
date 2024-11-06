@@ -1,0 +1,18 @@
+/* TaskList.css */
+
+.taskList {
+  margin-bottom: 50px;
+}
+.task-list-item {
+    display: flex;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .task-list-checkbox {
+    margin-right: 10px;
+  }
+  

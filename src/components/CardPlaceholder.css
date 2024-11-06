@@ -1,0 +1,9 @@
+/* CardPlaceholder.css */
+.card-placeholder {
+    background-color: #ccc;
+    width: 80%;
+    height: 60px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  

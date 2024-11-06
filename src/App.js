@@ -1,13 +1,20 @@
+import React from 'react';
 import './App.css';
-import SidebarComp from './components/SidebarComponents/SidebarComp';
-import MainComp from './components/MainComponents/MainComp';
+import Sidebar from './components/Sidebar';
+import Header from './components/Header';
+import MainContent from './components/MainContent';
+
 function App() {
   return (
-    <div className = "top-container">
-      <div className='sidebar'> <SidebarComp/> </div>
-      <div className='main-container'><MainComp/></div>
+    <div className="app-container">
+      <Sidebar />
+      <div className="main-content-wrapper">
+        <Header className="header"/>
+        <MainContent className="main-content"/>
+      </div>
     </div>
   );
 }
 
 export default App;
+
