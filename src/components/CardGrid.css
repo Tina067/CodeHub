@@ -1,5 +1,9 @@
 /* CardGrid.css */
 .card-grid {
     background-color: yellow;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   

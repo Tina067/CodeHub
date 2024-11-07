@@ -1,0 +1,23 @@
+.OneCard {
+    height: 80%;
+    width: 180px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ProCard {
+    height: 80%;
+    width: 100%;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.topic {
+    height: 15%;
+    width: 90%;
+    background-color: black;
+    border-radius: 20px;
+}

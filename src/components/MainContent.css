@@ -38,10 +38,11 @@
 }
 
 .Title4-section {
-  flex-basis: 40%; /* Occupies 40% of the container height */
+  flex-basis: 60%; /* Occupies 40% of the container height */
   display: flex;
   flex-direction: column;
   margin-top: 20px;
+  
 }
 
 .parent-main-content-column {
