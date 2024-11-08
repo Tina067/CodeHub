@@ -13,13 +13,6 @@ function CardGrid() {
       ))}
     </div>
   );
-  // return(
-  //   <div className="card-grid">
-  //     <ProgressCard />
-  //     <ProgressCard />
-  //   </div>
-    
-  // )
 }
 
 export default CardGrid;

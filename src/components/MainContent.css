@@ -42,19 +42,22 @@
   display: flex;
   flex-direction: column;
   margin-top: 20px;
-  
+
 }
 
 .parent-main-content-column {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  height: 100%;
 }
 
 .main-content-column-2 {
-  width: 35%;
+  width: 50%;
 }
 
 .main-content-column-3 {
-  width: 30%;
+  width: 50%;
 }
+
+

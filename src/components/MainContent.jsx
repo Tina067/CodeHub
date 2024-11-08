@@ -3,6 +3,7 @@ import './MainContent.css';
 import SectionTitle from './SectionTitle';
 import Card from './Card';
 import CardGrid from './CardGrid';
+import TodaysCard from './TodaysCard';
 
 function MainContent() {
   return (
@@ -10,8 +11,7 @@ function MainContent() {
       <div className="main-content-section">
       <div className='parent-main-content-column'>
         <div className="main-content-column-2">
-          <SectionTitle title="Title2" />
-          <Card />
+          <TodaysCard />
         </div>
         <div className="main-content-column-3">
           <SectionTitle title="Title3" />
