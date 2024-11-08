@@ -14,7 +14,6 @@ function MainContent() {
           <TodaysCard />
         </div>
         <div className="main-content-column-3">
-          <SectionTitle title="Title3" />
           <Card />
         </div>
         </div>
