@@ -19,7 +19,7 @@ function MainContent() {
         </div>
       </div>
       <div className='Title4-section'>
-      <SectionTitle title="Title4" />
+      <SectionTitle title="Learning Progess" />
       <CardGrid />
       </div> 
     </div>

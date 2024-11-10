@@ -7,7 +7,7 @@ import SectionTitle from './SectionTitle';
 function Card() {
   return (
     <div className="card">
-      <SectionTitle title="Title3" />
+      <SectionTitle title="Weekly GOAL" />
       <CardPlaceholder />
       <CardPlaceholder />
     </div>
