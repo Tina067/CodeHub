@@ -1,7 +1,10 @@
 /* TaskList.css */
 
 .taskList {
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
+  /* height: 50px; */
+  display: flex;
+  flex-direction: column;
 }
 .task-list-item {
     display: flex;
@@ -10,9 +13,25 @@
     padding: 10px;
     border-radius: 8px;
     margin-bottom: 10px;
+    height: 100px;
   }
   
   .task-list-checkbox {
     margin-right: 10px;
   }
-  
+  .question-section{
+    display: flex;
+    gap:10px;
+  }
+  .question-topic {
+    border: 1px solid black;
+    background-color:#e0e0e0 ;
+    border: 8px;
+    padding: 5px;
+  }
+
+
+  .check-box .task-list-checkbox {
+    width: 20px;  /* Set desired width */
+    height: 20px; /* Set desired height */
+}

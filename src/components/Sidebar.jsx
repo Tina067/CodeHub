@@ -2,7 +2,7 @@ import React from 'react';
 import './Sidebar.css';
 import SectionTitle from './SectionTitle';
 import TaskList from './TaskList';
-import InfoBoxList from './InfoBoxList';
+// import InfoBoxList from './InfoBoxList';
 function Sidebar() {
   return (
     <div className="sidebar">
@@ -12,7 +12,7 @@ function Sidebar() {
         <div className="sidebar-settings">⚙️</div>
       </div>
       <div className='sidebar-Title'>
-      <div className='sidebar-Title1'><SectionTitle title="Title1" /></div>
+      <div className='sidebar-Title1'><SectionTitle title="Playlist" /></div>
       <div className='input-box'>
             <input list = "dropdown-options" type="text" placeholder=' ' className='boxx'></input>
             <datalist id="dropdown-options">
@@ -24,7 +24,7 @@ function Sidebar() {
         </div>
       </div>
       <TaskList />
-      <InfoBoxList />
+      {/* <InfoBoxList /> */}
     </div>
   );
 }
