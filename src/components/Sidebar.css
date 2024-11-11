@@ -3,8 +3,13 @@
     width: 30%;
     background-color: yellow;
     padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
     border-radius: 10px;
+    height:98%;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
   }
   .sidebar-Title {
     display: flex;
@@ -43,5 +48,27 @@
  }
 
  .tasklist-section{
+  max-height: 85vh;
   overflow: auto;
+  margin-bottom: 30px;
+  padding-right: 20px; 
  }
+
+ .tasklist-section::-webkit-scrollbar {
+  width: 10px;               /* Width of the scrollbar */
+}
+
+.tasklist-section::-webkit-scrollbar-track {
+  background: #f1f1f1;      /* Background color of the scrollbar track */
+  border-radius: 10px;      /* Rounds the scrollbar track corners */
+}
+
+.tasklist-section::-webkit-scrollbar-thumb {
+  background-color: #888;   /* Color of the scrollbar thumb */
+  border-radius: 10px;      /* Rounds the scrollbar thumb corners */
+  border: 2px solid #f1f1f1; /* Adds padding around the thumb */
+}
+
+.tasklist-section::-webkit-scrollbar-thumb:hover {
+  background: #555;         /* Color when hovering over the scrollbar */
+}
