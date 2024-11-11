@@ -7,12 +7,12 @@ import MainContent from './components/MainContent';
 function App() {
   return (
     <div className="app-container">
-      <Sidebar />
+    <Sidebar />
       <div className="main-content-wrapper">
         <Header className="header"/>
         <MainContent className="main-content"/>
       </div>
-    </div>
+    </div>  
   );
 }
 

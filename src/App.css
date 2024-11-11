@@ -9,8 +9,12 @@ body {
 .app-container {
   display: flex;
   height: 100vh; 
+  margin: 10px;
 }
 
+/* .wrapper-container{
+  display: flex;
+} */
 /* .main-content {
 
   flex: 1;

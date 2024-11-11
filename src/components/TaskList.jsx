@@ -3,6 +3,8 @@ import './TaskList.css';
 
 function TaskList() {
   return (
+    <div className='main-Tasklist'>
+    <div className="days">Day 36</div>
     <div className='taskList'>
       {[1,2 ,3].map((task) => (
         <div key={task} className="task-list-item">
@@ -12,10 +14,10 @@ function TaskList() {
         <span className='question'>Find the middle element of a sorted array</span>
         <span className='question-topic'>Binary search</span>
         <span className='question-topic'>Sorting</span>
-        </div>  
-          
+        </div>    
         </div>
       ))}
+    </div>
     </div>
   );
 }

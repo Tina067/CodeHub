@@ -23,7 +23,13 @@ function Sidebar() {
             </datalist>
         </div>
       </div>
+      <div className="tasklist-section">
       <TaskList />
+      {/* <TaskList />
+      <TaskList />
+      <TaskList /> */}
+      </div>
+      
       {/* <InfoBoxList /> */}
     </div>
   );
