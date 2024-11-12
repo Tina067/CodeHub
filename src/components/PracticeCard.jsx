@@ -3,13 +3,13 @@ import './PracticeCard.css';
 // import VideoPlayer from './VideoPlayer';
 import YouTube from 'react-youtube';
 const PracticeCard = () => {
-  const videoId = "F9c7LpRZWVQ"; // Example video ID
+  const videoId = "F9c7LpRZWVQ"; 
 
   const videoOptions = {
     height: '100%',
     width: '100%',  
     playerVars: {
-      autoplay: 0, // Set to 1 to autoplay
+      autoplay: 0, 
     }
   };
 
