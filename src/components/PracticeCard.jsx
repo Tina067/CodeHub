@@ -6,11 +6,11 @@ const PracticeCard = () => {
   const videoId = "F9c7LpRZWVQ"; // Example video ID
 
   const videoOptions = {
-    // height: '100%',
-    // width: '100%',  
+    height: '100%',
+    width: '100%',  
     playerVars: {
       autoplay: 0, // Set to 1 to autoplay
-    },
+    }
   };
 
   return (

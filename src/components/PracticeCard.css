@@ -21,20 +21,20 @@
   
 .videoimage {
     width: 40%;
-    position: relative; /* Make it the positioning context */
+    position: relative; 
     overflow: hidden;
     border-radius: 8px;
 }
 
-/* Apply scaling to fit the entire thumbnail without cropping */
 .video-iframe {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 110%; /* Slightly larger than the container width */
-    height: 110%; /* Slightly larger than the container height */
-    transform: translate(-50%, -50%) scale(0.9); /* Centers and scales down */
+    width: 110%; 
+    height: 110%; 
+    transform: translate(-50%, -50%) scale(0.9); 
     transform-origin: center;
+    object-fit: contain;
 }
   
 .pCard {
