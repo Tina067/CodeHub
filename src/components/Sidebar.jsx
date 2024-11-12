@@ -7,7 +7,8 @@ function Sidebar(props) {
     const [inputValue, setInputValue] = useState(" ");
 
      const {QData} = props;
-     const preparationPlan =Object.keys(QData)[0];
+    //  const preparationPlan =QData?.[0].Object.keys(QData)[0];
+    const preparationPlan = Object.keys(QData?.[0] ?? {})?.[0];
 
      const handleChange = (e) => {
       setInputValue(e.target.value)

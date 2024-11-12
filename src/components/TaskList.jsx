@@ -4,6 +4,7 @@ import './TaskList.css';
 function TaskList() {
   return (
     <div className='main-Tasklist'>
+    <div className="weekName">Week 1</div>
     <div className="days">Day 36</div>
     <div className='taskList'>
       {[1,2 ,3].map((task) => (
