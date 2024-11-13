@@ -36,6 +36,18 @@
 
 
   .check-box .task-list-checkbox {
-    width: 20px;  /* Set desired width */
-    height: 20px; /* Set desired height */
+    width: 20px;  
+    height: 20px; 
+}
+
+
+.weekName {
+  position: sticky;
+  top: 0;
+  background-color:yellow;  
+  padding: 10px;
+  /* font-size: 1.2em; */
+  /* font-weight: bold; */
+  /* z-index: 1;  
+  /* border-bottom: 2px solid #ddd; */
 }

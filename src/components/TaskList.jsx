@@ -1,25 +1,37 @@
 import React from 'react';
 import './TaskList.css';
 
-function TaskList() {
+function TaskList(props) {
+  const { Task } = props;
+  console.log(Task);
+  
   return (
     <div className='main-Tasklist'>
-    <div className="weekName">Week 1</div>
-    <div className="days">Day 36</div>
-    <div className='taskList'>
-      {[1,2 ,3].map((task) => (
-        <div key={task} className="task-list-item">
-        <div className="check-box"><input type="checkbox" className="task-list-checkbox" /></div>
-        <div className="question-section">
-        {/* <span className='question'>Task {task}</span> */}
-        <span className='question'>Find the middle element of a sorted array</span>
-        <span className='question-topic'>Binary search</span>
-        <span className='question-topic'>Sorting</span>
-        </div>    
+      {/* Looping through each week */}
+      <div className="weekName">Week {Task.week}</div>
+      
+      {/* Looping through each day */}
+      {Task.days.map((dayItem) => (
+        <div key={dayItem.day} className="day-section">
+          <div className="days">Day {dayItem.day}</div>
+          
+          {/* Looping through each question of the day */}
+          <div className="taskList">
+            {dayItem.questions.map((questionItem, index) => (
+              <div key={index} className="task-list-item">
+                <div className="check-box">
+                  <input type="checkbox" className="task-list-checkbox" />
+                </div>
+                <div className="question-section">
+                  <span className='question'>{questionItem.question}</span>
+                  <span className='question-topic'>{questionItem.topic}</span>
+                </div>    
+              </div>
+            ))}
+          </div>
         </div>
       ))}
-    </div>
-    </div>
+    </div> 
   );
 }
 

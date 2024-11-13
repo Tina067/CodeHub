@@ -8,7 +8,11 @@ function Sidebar(props) {
 
      const {QData} = props;
     //  const preparationPlan =QData?.[0].Object.keys(QData)[0];
-    const preparationPlan = Object.keys(QData?.[0] ?? {})?.[0];
+    const preparationPlanKey = Object.keys(QData?.[0] ?? {})?.[0];
+    const preparationPlan = QData[0]["7DaysPreparationPlan"];
+    console.log("PreparationPlan")
+    console.log(preparationPlan);
+    
 
      const handleChange = (e) => {
       setInputValue(e.target.value)
@@ -37,7 +41,7 @@ function Sidebar(props) {
             onFocus={handleFocus} 
             ></input>
             <datalist id="dropdown-options">
-                <option value={preparationPlan} />
+                <option value={preparationPlanKey} />
                 <option value="option 2" />
                 <option value="option 3" />
                 <option value="option 4" />
@@ -45,10 +49,13 @@ function Sidebar(props) {
         </div>
       </div>
       <div className="tasklist-section">
+     {preparationPlan.map((task)=>(
+        <TaskList key={task.week}  Task={task}/>
+      ))}
+      {/* <TaskList />
       <TaskList />
       <TaskList />
-      <TaskList />
-      <TaskList />
+      <TaskList /> */}
       </div>
       
       {/* <InfoBoxList /> */}
